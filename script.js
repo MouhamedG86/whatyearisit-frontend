@@ -4,5 +4,3 @@ fetch("https://whatyearisit-backend-ten-flame.vercel.app/year")
     document.querySelector('#year').textContent = data.year;
 
 })
-
-return data;
